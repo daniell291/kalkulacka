@@ -17,7 +17,7 @@ example=""
 text=""
 result=0
 display_text = tk.StringVar(value="0")
-display_text2 = tk.StringVar(value="0")
+display_text2 = tk.StringVar(value="")
 
 label = tk.Label(root, textvariable=display_text2, font=("arial",15),)
 label.pack(padx=20, pady=0)
@@ -50,7 +50,7 @@ def CE():
     text=""
     result=0
     display_text.set("0")
-    display_text2.set("0")
+    display_text2.set("")
 
 def equals():
     global result
